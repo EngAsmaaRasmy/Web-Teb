@@ -1,0 +1,145 @@
+body
+{
+font-family: 'Cairo', sans-serif;    
+}
+
+#logOn{
+    
+    background-color: #e3ecf0;
+    padding-bottom: 30px;
+}
+
+.container
+{
+    background-color: white;
+    border: 1px solid white;
+}
+.mybtn
+{
+     
+        border: 1px solid #16c1f5;
+      
+        font-size:25px;
+        padding: 10px 0px;
+        background: #3498db;
+        border-radius: 6px;
+}
+
+.textStyle
+{
+    border: 1px solid #16c1f5;
+    font-weight: 100;
+   
+    border-radius: 6px;
+    color: #3498db;
+    
+}
+
+.form-box h1{
+    font-size: 30px;
+    font-weight: 600px;
+    color: #2b5464;
+}
+.passLink
+{
+    text-decoration: none;
+    color: #3498db;
+    font-size: 20px;
+}
+.pStyle
+{
+    
+    width: 50px;
+    padding: 15px;
+    border-radius:100%;
+    position: relative;
+    top: 50%;
+    left: 47%;
+}
+
+.pStyle:after
+{
+    content: "" ;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+     background-color: #eee;
+    width: 130px;
+    height: 1px;
+
+}
+.pStyle:before
+{
+    content: "" ;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    background-color: #eee;
+    width: 130px;
+    height: 1px;
+
+}
+
+.facebook{
+     background: #4267b2;
+    color: #fff;
+    border: 1px solid #4267b2;
+    border-radius: 6px;
+    padding: 10px 0px;
+}
+.twitter
+{
+   color: #fff;
+    border: 1px solid #00aff0;
+    border-radius: 6px;
+     background: #00aff0;
+   
+        padding: 10px 0px;
+
+}
+.google
+{
+    color: #fff;
+    border: 1px solid #d34836;
+    border-radius: 6px;
+    background: #d34836;
+    padding: 10px 0px;
+   
+
+}
+.google:hover{
+    background-color:firebrick;
+    color: white;
+}
+.twitter:hover{
+    background-color:#16c1f5;
+    color: white;
+}
+.facebook:hover{
+        background-color:#427eb2;
+    color: white;
+}
+.contact-ways a
+{
+        color: #80adb7;
+       font-size: 25px;
+    position: relative;
+    
+}
+#contact
+{
+    background-color: #f7fafb;
+}
+.logos a img{
+    margin-left: 10px;
+    border: solid 1px black;
+}
+
+.row .col-md-4 i{
+    font-size: 16px;
+    background-color: #5e8091;
+    color: white;
+    padding: 5px;
+    
+}
+

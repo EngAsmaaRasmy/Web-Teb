@@ -1,0 +1,256 @@
+body
+{
+	direction: rtl;
+font-family: 'Cairo', sans-serif; 
+}
+.d-header {
+    border-bottom: 2px solid #408ead;
+    z-index: 100;
+}
+.d-header #header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: .5rem 0;
+}
+.d-header .membership {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+ 
+            -webkit-box-align: center;
+ 
+                -ms-flex-align: center;
+ 
+                    align-items: center;
+}
+.d-header .membership .log-in {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+}
+.d-header .membership .membership-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #10809C;
+    line-height: 1.6rem;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 6px;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+        -ms-flex-line-pack: center;
+            align-content: center;
+}
+.d-header .membership .doctor-span {
+    display: block;
+    margin-left: 12px;
+        -ms-flex-item-align: center;
+            align-self: center;
+}
+
+a {
+    color: #1080A3;
+    text-decoration: none !important;
+    outline: none;
+}
+.bold, strong, b, h4, h5 {
+    font-weight: 400;
+    font-style: normal;
+}
+.d-header .membership .log-in .login-btn {
+    background: #10809C;
+    color: #fff;
+    padding: 2px 12px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.d-header .membership .log-in .register-btn {
+    background: #e84a6c;
+    border-color: #e84a6c;
+    color: #fff;
+    margin: 0 .5rem;
+    width: 135px;
+    line-height: 1.6rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: .25rem;
+}
+.d-header .logo-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.d-header .slogan {
+    border-left: .5px solid #10809C;
+    color: #748080;
+    padding-left: 8px;
+    font-size: 18px;
+    display: block;
+    margin-top: 8px;
+}
+.d-header .logo-container .logo {
+    padding-right: 8px;
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    display: inline-block;
+}
+p.home-page-description {
+    color: #1080A3;
+    font-size: 20px;
+    padding: 8px;
+    text-align: right;
+}
+.pro-search-title {
+    text-align: center;
+    background: #1080A3;
+    margin: 0 25%;
+    padding: 8px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    color: #fff;
+    display: block;
+}
+.content.search-area {
+    background: #1080A3;
+    border-radius: 12px;
+    padding: 24px 8px;
+}
+.content div {
+    font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizelegibility;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+@media only screen and (min-width: 769px)
+[class*="medium-up"] {
+    margin-right: -0.33rem;
+    margin-left: -0.33rem;
+    overflow: hidden;
+}
+select, input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    border: 1px solid #96a6af;
+    border-radius: 5px;
+    color: #29333f;
+    font-size: 1rem;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: .7rem;
+    padding: 0rem .5rem;
+    width: 100%;
+    outline: 0!important;
+}
+.search-doctor select, .search-doctor input {
+    color: #0C627F;
+    background: #fff;
+}
+@media only screen and (min-width: 47.9375rem)
+.txtDoctorName {
+    border: 1px solid #0C627F!important;
+    color: #0C627F!important;
+    height: 42px!important;
+    background: #fff;
+}
+button.button.search-h {
+    width: 100%;
+}
+@media only screen and (min-width: 47.9375rem)
+button.button.search-h span {
+    font-size: 28px;
+}
+.search-btn .button {
+    background: #e84a6c;
+    font-size: 20px;
+	border: none;
+	padding: 1rem 0;
+}
+.button {
+    border-radius: 3px;
+    color: #fff;
+    display: table;
+    font-size: .9rem;
+    padding: .55rem .65rem;
+    position: relative;
+    outline: 0!important;
+    border: 0;
+    cursor: pointer;
+}
+div#search-result {
+    background: whitesmoke;
+    padding: 12px 6px;
+    border-radius: 24px;
+}
+@media only screen and (min-width: 769px)
+[class*="boxes-container"]>.column {
+    float: right;
+    padding-left: .33rem;
+    padding-right: .33rem;
+}
+.doctor-card-img {
+    min-width: 27%;
+    text-align: center;
+}
+.doctor-card-img img {
+    max-width: 100px!important;
+    width: 100px!important;
+    height: 100px;
+}
+
+.doctor-card-img img {
+    border: 1.5px solid #1080A3;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.doctor-card-info {
+    -ms-flex-item-align: center;
+        align-self: center;
+    text-align: center;
+}
+.doctor-card-info {
+    width: 80%;
+	float: left;
+}
+.doctor-card-info .doctor-info {
+    border-bottom: 1px solid #1080A3;
+}
+.doctor-card-internal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.doctor-card {
+    background: #fff;
+    padding: 3%;
+    border-radius: 12px;
+	margin-bottom: 2rem;
+}

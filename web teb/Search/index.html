@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Search For Doctor</title>
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+		<header>
+			<div class="d-header">
+				<div id="header-container" class="container">
+					<div class="membership">
+						<div class="log-in">
+
+							<div class="membership-links">
+								<a class="doctor-span" href="#" rel="nofollow" title="تسجيل مستخدم جديد - ويب طب برو">
+									<span class="bold">هل أنت طبيب؟</span>
+								</a>
+
+								<a class="login-btn" href="#" rel="nofollow" title="تسجيل الدخول - ويب طب برو ">
+
+									<span class="bold">دخول</span>
+								</a>
+							</div>
+							<a class="register-btn" href="#" rel="nofollow" title="تسجيل مستخدم جديد - ويب طب برو">
+								<span class="bold">تسجيل</span>
+							</a>
+
+						</div>
+
+					</div>
+					<div class="logo-container">
+						<span class="slogan">Expand Your Reach</span>
+						<a class="logo" data-ref="logo" href="https://www.webtebpro.com/" title="ويب طب برو">
+							<img width="151" height="40" src="https://static.webteb.net/tebpro/webtebprologo.svg" alt="ويب طب برو">
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</header>
+
+
+	<div class="container mt-5">
+			<div class="doctor-joinus">
+                    <img class="desktop-banner-2" src="images/doctorbannerdesktop3.png" class="img-fluid" alt="انضم لدليل اطباء ويب طب برو">
+
+            <p class="home-page-description bold px-5">يضم دليل ويب طب برو اسماء وعناوين وارقام هواتف الاطباء في مختلف الاقطار العربية ومن مختلف التخصصات الطبية. يوفر الدليل اسلوب بحث سهل وفعال.</p>
+        </div>
+		<span class="pro-search-title bold">ابحث عن طبيب</span>
+		<div class="content search-area">
+		<div class="search-doctor search-area">
+    <form id="doctorsearch" action="https://www.webtebpro.com/doctors/search" method="get" data-ref="search_box">
+        <div class="row">
+            <div class="column medium-up-3 col-md-4">
+                <input class="txtDoctorName" id="textfield" name="Text" placeholder="ابحث..." type="text" value="">
+            </div>
+            <div class="column doctor-spec-dd col-md-4 ">
+                <select id="specialities" name="SpecialityID">
+                    <option value="0" selected="selected">
+                        اختر التخصص
+                    </option>
+                <option value="46">التوليد وأمراض النساء</option><option value="47">الأطفال</option><option value="1760">طب عام</option><option value="54">الطب الباطني</option><option value="61">طب الأسنان</option><option value="42">طب وجراحة العظام</option><option value="43">أنف, أذن وحنجرة وجراحة الرأس والرقبة</option><option value="52">الأمراض الجلدية والتناسليه</option><option value="56">أمراض القلب</option><option value="58">امراض الصدرية والجهاز التنفسي</option><option value="49">جراحة التجميل</option><option value="53">طب وجراحة العيون</option><option value="51">طب الكلى وارتفاع ضغط الدم</option><option value="44">الجهاز الهضمي</option><option value="60">طب العائلة (طب الاسرة)</option><option value="57">امراض المفاصل والروماتيزم</option><option value="164">جراحة القلب</option><option value="55">الطب النفسي</option><option value="50">طب الأعصاب</option><option value="282">مرض السكري والغدد الصماء</option><option value="40">طب  الأورام (السرطان)</option><option value="64">امراض واورام الدم</option><option value="115">جراحة الأطفال</option><option value="1">علم النفس- Psychology</option><option value="239">التغذية والحمية</option><option value="26">الأعشاب</option><option value="22">العلاج الطبيعي</option><option value="154">صيدلة</option><option value="133">جراحة المخ والأعصاب</option><option value="213">علم الأشعة (Radiology)</option><option value="227">أمراض الكبد</option><option value="237">طب الألم (التخدير)</option><option value="280">الحساسية والمناعة</option><option value="1759">طب الطوارىء</option><option value="130">جراحة الصدر والرئتين</option><option value="7">اخصائي بصريات</option><option value="41">المسالك البولية</option><option value="45">التخدير</option><option value="48">جراحة</option><option value="103">الطب النفسي للأطفال</option><option value="279">طب الشيخوخة</option><option value="1764">الطب النووي (إشعاعي)</option><option value="1767">اخصائية تجميل وعناية بالبشرة</option><option value="1768">مختبرات طبية</option></select>
+            </div>
+            <div class="column doctor-spec-dd col-md-4">
+                <select id="subspecialities" name="SubSpecialityID">
+                    
+                <option value="0" selected="selected">اختر التخصص الفرعي</option></select>
+            </div>
+		</div>
+        <div class="search-btn">
+            <button class="button search-h" type="submit">
+                <span class="bold">ابحث</span>
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </form>
+</div>
+	</div>
+            
+         
+			<div class="content my-3">
+				<div id="search-result" class="search-result">
+                    <div id="endless" class="boxes-container row" data-doctors-list="">
+                        
+       <div class="column end col-md-6">
+            
+<div class="wrap">
+    
+
+    <img src="https://wtanalytics-a.akamaihd.net/ev.gif?c=ProductImpression&amp;a=ProDoctor&amp;l=Doctor%2bSearch&amp;v=1&amp;c1=5bb45935bfaf560bd0adb5ff&amp;c2=%25d8%25a7%25d9%2584%25d8%25b7%25d8%25a8%2b%25d8%25a7%25d9%2584%25d9%2586%25d9%2581%25d8%25b3%25d9%258a&amp;value1=0&amp;ccn=&amp;mcn=&amp;vn=Doctors&amp;fn=%252fDoctors%252fIndex&amp;deviceType=0&amp;requestKey=aa84de16-eb94-44b6-a7dc-4d6d2d6028de&amp;visitorKey=cf58c9f5-bec2-4bbc-b14e-13a612286dba&amp;sessionKey=73ca2bbe-0147-4582-a0ad-82c030045f1b&amp;ca=https%253a%252f%252fwww.webtebpro.com&amp;url=http%253a%252f%252fwww.webtebpro.com%252f&amp;re=https%253a%252f%252fwww.webteb.com%252f&amp;ver=6968f31a-618b-4f2a-9cdc-2af30fb03344&amp;initiator=code" style="position: absolute;width:0px;height:0px" width="0" height="0" alt="tracker">
+
+    <a href="https://www.webtebpro.com/5bb45935bfaf560bd0adb5ff_دكتور-محمد-حسين" title="الدكتور محمد" data-im="{&quot;PlacementType&quot;:&quot;Doctor Search&quot;,&quot;PositionName&quot;:&quot;DoctorSearch&quot;, &quot;SourceID&quot;:&quot;0&quot;, &quot;AdvertiserType&quot;:&quot;Doctor&quot;, &quot;AdvertiserSourceID&quot;:&quot;5bb45935bfaf560bd0adb5ff&quot;, &quot;Rank&quot;:&quot;1&quot;, &quot;PageNumber&quot;:&quot;0&quot;, &quot;key&quot;:&quot;&quot; }">
+        <div class="doctor-card doctor" itemscope="" itemtype="http://schema.org/Person">
+            <div class="doctor-card-internal">
+                <div class="doctor-card-img">
+                    <img src="https://static.webteb.net/useruploads/579b0acf-570c-b221-a820-2ec10b2fb50f.jpg" alt="محمد حسين" itemprop="image">
+                </div>
+                <div class="doctor-card-info">
+                    <div class="doctor-info">
+                        <span class="doctor-card-info-name bold" itemprop="jobTitle">دكتور</span>
+                        <span class="doctor-card-info-name bold" itemprop="name">محمد حسين</span>
+
+                    </div>
+                    <span class="doctor-card-info-spec bold doctor-card-info-spec-txt">الطب النفسي</span>
+                    <div class="doctor-card-info-address" itemprop="address">الاسكندرية</div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+        </div>
+        <div class="column end col-md-6">
+            
+<div class="wrap">
+    
+
+    <img src="https://wtanalytics-a.akamaihd.net/ev.gif?c=ProductImpression&amp;a=ProDoctor&amp;l=Doctor%2bSearch&amp;v=2&amp;c1=5bb45933bfaf560bd0adb479&amp;c2=%25d8%25a7%25d9%2584%25d8%25aa%25d9%2588%25d9%2584%25d9%258a%25d8%25af%2b%25d9%2588%25d8%25a3%25d9%2585%25d8%25b1%25d8%25a7%25d8%25b6%2b%25d8%25a7%25d9%2584%25d9%2586%25d8%25b3%25d8%25a7%25d8%25a1&amp;value1=0&amp;ccn=&amp;mcn=&amp;vn=Doctors&amp;fn=%252fDoctors%252fIndex&amp;deviceType=0&amp;requestKey=aa84de16-eb94-44b6-a7dc-4d6d2d6028de&amp;visitorKey=cf58c9f5-bec2-4bbc-b14e-13a612286dba&amp;sessionKey=73ca2bbe-0147-4582-a0ad-82c030045f1b&amp;ca=https%253a%252f%252fwww.webtebpro.com&amp;url=http%253a%252f%252fwww.webtebpro.com%252f&amp;re=https%253a%252f%252fwww.webteb.com%252f&amp;ver=d6624a57-79bc-4936-a263-e1a1df4678f6&amp;initiator=code" style="position: absolute;width:0px;height:0px" width="0" height="0" alt="tracker">
+
+    <a href="https://www.webtebpro.com/5bb45933bfaf560bd0adb479_دكتور-استشاري-حسن-هندى" title="الدكتور حسن" data-im="{&quot;PlacementType&quot;:&quot;Doctor Search&quot;,&quot;PositionName&quot;:&quot;DoctorSearch&quot;, &quot;SourceID&quot;:&quot;0&quot;, &quot;AdvertiserType&quot;:&quot;Doctor&quot;, &quot;AdvertiserSourceID&quot;:&quot;5bb45933bfaf560bd0adb479&quot;, &quot;Rank&quot;:&quot;2&quot;, &quot;PageNumber&quot;:&quot;0&quot;, &quot;key&quot;:&quot;&quot; }">
+        <div class="doctor-card doctor" itemscope="" itemtype="http://schema.org/Person">
+            <div class="doctor-card-internal">
+                <div class="doctor-card-img">
+                    <img src="https://static.webteb.net/useruploads/7089202b-668a-6c57-1c68-072a9a5effc7.jpg" alt="حسن هندى" itemprop="image">
+                </div>
+                <div class="doctor-card-info">
+                    <div class="doctor-info">
+                        <span class="doctor-card-info-name bold" itemprop="jobTitle">دكتور استشاري</span>
+                        <span class="doctor-card-info-name bold" itemprop="name">حسن هندى</span>
+
+                    </div>
+                    <span class="doctor-card-info-spec bold doctor-card-info-spec-txt">الخصوبة وعلاج العقم</span>
+                    <div class="doctor-card-info-address" itemprop="address">الجيزة</div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+        </div>
+        <div class="column end col-md-6">
+            
+<div class="wrap">
+    
+
+    <img src="https://wtanalytics-a.akamaihd.net/ev.gif?c=ProductImpression&amp;a=ProDoctor&amp;l=Doctor%2bSearch&amp;v=3&amp;c1=5bb45920bfaf560bd0ad9c0a&amp;c2=%25d8%25a7%25d9%2584%25d8%25b7%25d8%25a8%2b%25d8%25a7%25d9%2584%25d8%25a8%25d8%25a7%25d8%25b7%25d9%2586%25d9%258a&amp;value1=0&amp;ccn=&amp;mcn=&amp;vn=Doctors&amp;fn=%252fDoctors%252fIndex&amp;deviceType=0&amp;requestKey=aa84de16-eb94-44b6-a7dc-4d6d2d6028de&amp;visitorKey=cf58c9f5-bec2-4bbc-b14e-13a612286dba&amp;sessionKey=73ca2bbe-0147-4582-a0ad-82c030045f1b&amp;ca=https%253a%252f%252fwww.webtebpro.com&amp;url=http%253a%252f%252fwww.webtebpro.com%252f&amp;re=https%253a%252f%252fwww.webteb.com%252f&amp;ver=6a4e2032-8f1c-4c2c-ac6e-f23e348610f3&amp;initiator=code" style="position: absolute;width:0px;height:0px" width="0" height="0" alt="tracker">
+
+    <a href="https://www.webtebpro.com/5bb45920bfaf560bd0ad9c0a_الدكتورة-مها-ماهر" title="الدكتور مها" data-im="{&quot;PlacementType&quot;:&quot;Doctor Search&quot;,&quot;PositionName&quot;:&quot;DoctorSearch&quot;, &quot;SourceID&quot;:&quot;0&quot;, &quot;AdvertiserType&quot;:&quot;Doctor&quot;, &quot;AdvertiserSourceID&quot;:&quot;5bb45920bfaf560bd0ad9c0a&quot;, &quot;Rank&quot;:&quot;3&quot;, &quot;PageNumber&quot;:&quot;0&quot;, &quot;key&quot;:&quot;&quot; }">
+        <div class="doctor-card doctor" itemscope="" itemtype="http://schema.org/Person">
+            <div class="doctor-card-internal">
+                <div class="doctor-card-img">
+                    <img src="https://static.webteb.net/imgs/doctors/avatar-85x85.png" alt="مها ماهر" itemprop="image">
+                </div>
+                <div class="doctor-card-info">
+                    <div class="doctor-info">
+                        <span class="doctor-card-info-name bold" itemprop="jobTitle">الدكتورة</span>
+                        <span class="doctor-card-info-name bold" itemprop="name">مها ماهر</span>
+
+                    </div>
+                    <span class="doctor-card-info-spec bold doctor-card-info-spec-txt">الطب الباطني</span>
+                    <div class="doctor-card-info-address" itemprop="address">المنصورة</div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+        </div>
+        <div class="column end col-md-6">
+            
+<div class="wrap">
+    
+
+    <img src="https://wtanalytics-a.akamaihd.net/ev.gif?c=ProductImpression&amp;a=ProDoctor&amp;l=Doctor%2bSearch&amp;v=4&amp;c1=5bbf0b7ebfaf5b0548778367&amp;c2=%25d8%25b7%25d8%25a8%2b%2b%25d8%25a7%25d9%2584%25d8%25a3%25d9%2588%25d8%25b1%25d8%25a7%25d9%2585%2b(%25d8%25a7%25d9%2584%25d8%25b3%25d8%25b1%25d8%25b7%25d8%25a7%25d9%2586)&amp;value1=0&amp;ccn=&amp;mcn=&amp;vn=Doctors&amp;fn=%252fDoctors%252fIndex&amp;deviceType=0&amp;requestKey=aa84de16-eb94-44b6-a7dc-4d6d2d6028de&amp;visitorKey=cf58c9f5-bec2-4bbc-b14e-13a612286dba&amp;sessionKey=73ca2bbe-0147-4582-a0ad-82c030045f1b&amp;ca=https%253a%252f%252fwww.webtebpro.com&amp;url=http%253a%252f%252fwww.webtebpro.com%252f&amp;re=https%253a%252f%252fwww.webteb.com%252f&amp;ver=29bfade7-d34d-4880-864f-8a9564188c44&amp;initiator=code" style="position: absolute;width:0px;height:0px" width="0" height="0" alt="tracker">
+
+    <a href="https://www.webtebpro.com/5bbf0b7ebfaf5b0548778367_دكتور-adil-alomairy" title="الدكتور Adil" data-im="{&quot;PlacementType&quot;:&quot;Doctor Search&quot;,&quot;PositionName&quot;:&quot;DoctorSearch&quot;, &quot;SourceID&quot;:&quot;0&quot;, &quot;AdvertiserType&quot;:&quot;Doctor&quot;, &quot;AdvertiserSourceID&quot;:&quot;5bbf0b7ebfaf5b0548778367&quot;, &quot;Rank&quot;:&quot;4&quot;, &quot;PageNumber&quot;:&quot;0&quot;, &quot;key&quot;:&quot;&quot; }">
+        <div class="doctor-card doctor" itemscope="" itemtype="http://schema.org/Person">
+            <div class="doctor-card-internal">
+                <div class="doctor-card-img">
+                    <img src="https://static.webteb.net/imgs/doctors/avatar-85x85.png" alt="Adil Alomairy" itemprop="image">
+                </div>
+                <div class="doctor-card-info">
+                    <div class="doctor-info">
+                        <span class="doctor-card-info-name bold" itemprop="jobTitle">دكتور</span>
+                        <span class="doctor-card-info-name bold" itemprop="name">Adil Alomairy</span>
+
+                    </div>
+                    <span class="doctor-card-info-spec bold doctor-card-info-spec-txt">طب الاورام الكيماوي</span>
+                    <div class="doctor-card-info-address" itemprop="address">الجيزة</div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+        </div>
+            <div class="clearfix"></div>
+          
+        <div class="column end col-md-6">
+            
+<div class="wrap">
+    
+
+    <img src="https://wtanalytics-a.akamaihd.net/ev.gif?c=ProductImpression&amp;a=ProDoctor&amp;l=Doctor%2bSearch&amp;v=5&amp;c1=5bb4590ebfaf560bd0ad85d0&amp;c2=%25d8%25a7%25d9%2584%25d8%25aa%25d9%2588%25d9%2584%25d9%258a%25d8%25af%2b%25d9%2588%25d8%25a3%25d9%2585%25d8%25b1%25d8%25a7%25d8%25b6%2b%25d8%25a7%25d9%2584%25d9%2586%25d8%25b3%25d8%25a7%25d8%25a1&amp;value1=0&amp;ccn=&amp;mcn=&amp;vn=Doctors&amp;fn=%252fDoctors%252fIndex&amp;deviceType=0&amp;requestKey=aa84de16-eb94-44b6-a7dc-4d6d2d6028de&amp;visitorKey=cf58c9f5-bec2-4bbc-b14e-13a612286dba&amp;sessionKey=73ca2bbe-0147-4582-a0ad-82c030045f1b&amp;ca=https%253a%252f%252fwww.webtebpro.com&amp;url=http%253a%252f%252fwww.webtebpro.com%252f&amp;re=https%253a%252f%252fwww.webteb.com%252f&amp;ver=dd700c62-5891-4818-8d65-bb62699e878b&amp;initiator=code" style="position: absolute;width:0px;height:0px" width="0" height="0" alt="tracker">
+
+    <a href="https://www.webtebpro.com/5bb4590ebfaf560bd0ad85d0_دكتور-ابراهيم-متولي-ابراهيم-محمد" title="الدكتور ابراهيم" data-im="{&quot;PlacementType&quot;:&quot;Doctor Search&quot;,&quot;PositionName&quot;:&quot;DoctorSearch&quot;, &quot;SourceID&quot;:&quot;0&quot;, &quot;AdvertiserType&quot;:&quot;Doctor&quot;, &quot;AdvertiserSourceID&quot;:&quot;5bb4590ebfaf560bd0ad85d0&quot;, &quot;Rank&quot;:&quot;5&quot;, &quot;PageNumber&quot;:&quot;0&quot;, &quot;key&quot;:&quot;&quot; }">
+        <div class="doctor-card doctor" itemscope="" itemtype="http://schema.org/Person">
+            <div class="doctor-card-internal">
+                <div class="doctor-card-img">
+                    <img src="https://static.webteb.net/imgs/doctors/avatar-85x85.png" alt="ابراهيم متولي ابراهيم محمد" itemprop="image">
+                </div>
+                <div class="doctor-card-info">
+                    <div class="doctor-info">
+                        <span class="doctor-card-info-name bold" itemprop="jobTitle">دكتور</span>
+                        <span class="doctor-card-info-name bold" itemprop="name">ابراهيم متولي...</span>
+
+                    </div>
+                    <span class="doctor-card-info-spec bold doctor-card-info-spec-txt">التوليد وأمراض النساء</span>
+                    <div class="doctor-card-info-address" itemprop="address">ملوى</div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+        </div>
+        <div class="column end col-md-6">
+            
+<div class="wrap">
+    
+
+    <img src="https://wtanalytics-a.akamaihd.net/ev.gif?c=ProductImpression&amp;a=ProDoctor&amp;l=Doctor%2bSearch&amp;v=6&amp;c1=5bbf0b80bfaf5b054877857b&amp;c2=%25d8%25a7%25d9%2584%25d9%2585%25d8%25b3%25d8%25a7%25d9%2584%25d9%2583%2b%25d8%25a7%25d9%2584%25d8%25a8%25d9%2588%25d9%2584%25d9%258a%25d8%25a9&amp;value1=0&amp;ccn=&amp;mcn=&amp;vn=Doctors&amp;fn=%252fDoctors%252fIndex&amp;deviceType=0&amp;requestKey=aa84de16-eb94-44b6-a7dc-4d6d2d6028de&amp;visitorKey=cf58c9f5-bec2-4bbc-b14e-13a612286dba&amp;sessionKey=73ca2bbe-0147-4582-a0ad-82c030045f1b&amp;ca=https%253a%252f%252fwww.webtebpro.com&amp;url=http%253a%252f%252fwww.webtebpro.com%252f&amp;re=https%253a%252f%252fwww.webteb.com%252f&amp;ver=c9138239-f586-4488-add3-704308e39bf5&amp;initiator=code" style="position: absolute;width:0px;height:0px" width="0" height="0" alt="tracker">
+
+    <a href="https://www.webtebpro.com/5bbf0b80bfaf5b054877857b_دكتور-استشاري-حجازي-الشحات-مخلوف" title="الدكتور حجازي الشحات " data-im="{&quot;PlacementType&quot;:&quot;Doctor Search&quot;,&quot;PositionName&quot;:&quot;DoctorSearch&quot;, &quot;SourceID&quot;:&quot;0&quot;, &quot;AdvertiserType&quot;:&quot;Doctor&quot;, &quot;AdvertiserSourceID&quot;:&quot;5bbf0b80bfaf5b054877857b&quot;, &quot;Rank&quot;:&quot;6&quot;, &quot;PageNumber&quot;:&quot;0&quot;, &quot;key&quot;:&quot;&quot; }">
+        <div class="doctor-card doctor" itemscope="" itemtype="http://schema.org/Person">
+            <div class="doctor-card-internal">
+                <div class="doctor-card-img">
+                    <img src="https://static.webteb.net/imgs/doctors/avatar-85x85.png" alt="حجازي الشحات  مخلوف" itemprop="image">
+                </div>
+                <div class="doctor-card-info">
+                    <div class="doctor-info">
+                        <span class="doctor-card-info-name bold" itemprop="jobTitle">دكتور استشاري</span>
+                        <span class="doctor-card-info-name bold" itemprop="name">حجازي الشحات ...</span>
+
+                    </div>
+                    <span class="doctor-card-info-spec bold doctor-card-info-spec-txt">المسالك البولية</span>
+                    <div class="doctor-card-info-address" itemprop="address">شبين الكوم</div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+        </div>
+       
+			
+				</div>
+        </div>
+		
+		</div>
+		</div>
+	
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mine.js"></script>
+</body>
+
+</html>

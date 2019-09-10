@@ -1,0 +1,52 @@
+body{
+height: 1500px;
+background-color: #c7ecee
+
+}
+.h1{
+padding-left: 110px;
+
+}
+
+.table{
+	padding-left:70px;
+display: inline-block;
+font-size: 20px;
+display: inline-block;
+padding-bottom: 10px
+}
+.tabl{
+	padding-left:70px;
+display: inline-block;
+font-size: 25px;
+margin-bottom: 10px
+}
+
+.tab{
+	margin-bottom: 10px
+	padding-left:60px;
+font-size: 25px;
+}
+.ta{
+	margin-bottom: 10px
+	padding-left:70px;
+font-size: 20px;
+}
+
+.pic{
+margin-bottom: 10px;
+padding-left: 400px;
+width: 800px
+
+}
+.pra{
+	margin-bottom: 10px;
+	font-size: 20px;
+	width: 1000px;
+	padding-left: 30px;
+
+}
+.t1{
+background-color: gray;
+
+}

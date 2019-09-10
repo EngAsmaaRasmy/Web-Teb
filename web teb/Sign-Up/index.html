@@ -1,0 +1,528 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Up</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	
+	<section class="sign text-right py-2">
+		<div class="container">
+			<div class="main-content bg-white">
+				<div class="padding">
+					<h1 class="bold b-border">تسجيل مستخدم جديد في ويب طب </h1>
+				</div>
+				<form class="my-4" action="" action=" " method="post"  id="contact_form">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="column">
+								<input data-val="true" data-val-required="حقل اسم العائلة مطلوب." id="LastName" name="LastName" placeholder="اسم العائلة" type="text" value="" >
+							</div>
+
+						</div>
+						<div class="col-md-6">
+							<div class="column">
+								<input data-val="true" data-val-required="حقل الاسم الأول مطلوب." id="FirstName" name="FirstName" placeholder="الاسم الأول" type="text" value=""  >
+          
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="column">
+								<input class="text-LTR" data-val="true" data-val-required="حقل البريد الإلكتروني مطلوب." id="Email" name="Email" placeholder="البريد الإلكتروني" type="email" value="">
+							</div>
+
+						</div>
+						<div class="col-md-6">
+							<div class="column">
+								<select data-val="true" data-val-number="The field البلد must be a number." data-val-required="حقل البلد مطلوب." id="CountryID" name="CountryID" dir="rtl">
+									<option selected="selected" value="">اختر الدولة</option>
+									<option value="15">أثيوبيا</option>
+									<option value="101">أذربيجان</option>
+									<option value="100">أرمينيا</option>
+									<option value="170">أروبا</option>
+									<option value="14">إريتريا</option>
+									<option value="94">إسبانيا</option>
+									<option value="126">استراليا</option>
+									<option value="72">استونيا</option>
+									<option value="91">أسكتلندا</option>
+									<option value="111">أفغانستان</option>
+									<option value="156">الأرجنتين</option>
+									<option value="54">الأردن</option>
+									<option value="65">الازور</option>
+									<option value="161">الاكوادور</option>
+									<option value="60">الامارات العربية المتحدة</option>
+									<option value="63">ألبانيا</option>
+									<option value="49">البحرين</option>
+									<option value="158">البرازيل</option>
+									<option value="89">البرتغال</option>
+									<option value="67">البوسنة والهرسك</option>
+									<option value="1">الجزائر</option>
+									<option value="70">الجمهورية التشيكية</option>
+									<option value="71">الدنمارك</option>
+									<option value="8">الرأس الأخضر</option>
+									<option value="182">السلفادور</option>
+									<option value="37">السنغال</option>
+									<option value="41">السودان</option>
+									<option value="95">السويد</option>
+									<option value="46">الصحراء الغربية</option>
+									<option value="39">الصومال</option>
+									<option value="114">الصين</option>
+									<option value="52">العراق</option>
+									<option value="16">الغابون</option>
+									<option value="148">الفلبين</option>
+									<option value="7">الكاميرون</option>
+									<option value="12">الكونغو</option>
+									<option value="55">الكويت</option>
+									<option value="188">المارتينيك</option>
+									<option value="75">ألمانيا</option>
+									<option value="30">المغرب</option>
+									<option value="189">المكسيك</option>
+									<option value="59">المملكة العربية السعودية</option>
+									<option value="87">النرويج</option>
+									<option value="64">النمسا</option>
+									<option value="33">النيجر</option>
+									<option value="116">الهند</option>
+									<option value="155">الولايات المتحدة</option>
+									<option value="117">اليابان</option>
+									<option value="61">اليمن</option>
+									<option value="169">انتيغوا وبربودا</option>
+									<option value="144">أندونيسيا</option>
+									<option value="2">أنغولا</option>
+									<option value="76">إنكلترا</option>
+									<option value="167">أوروغواي</option>
+									<option value="110">أوزبكستان</option>
+									<option value="45">أوغندا</option>
+									<option value="98">أوكرانيا</option>
+									<option value="51">ايران</option>
+									<option value="79">ايرلندا</option>
+									<option value="86">أيرلندا الشمالية</option>
+									<option value="154">أيسلندا</option>
+									<option value="80">إيطاليا</option>
+									<option value="136">بابوا غينيا الجديدة</option>
+									<option value="164">باراغواي</option>
+									<option value="121">باكستان</option>
+									<option value="135">بالاو</option>
+									<option value="172">بربادوس</option>
+									<option value="142">بروناي دار السلام</option>
+									<option value="66">بلجيكا</option>
+									<option value="68">بلغاريا</option>
+									<option value="173">بليز</option>
+									<option value="112">بنغلاديش</option>
+									<option value="191">بنما</option>
+									<option value="3">بنين</option>
+									<option value="113">بوتان</option>
+									<option value="4">بوتسوانا</option>
+									<option value="5">بوركينا فاسو</option>
+									<option value="6">بوروندي</option>
+									<option value="88">بولندا</option>
+									<option value="157">بوليفيا</option>
+									<option value="130">بولينيزيا الفرنسية</option>
+									<option value="174">بونير</option>
+									<option value="192">بويرتو ريكو</option>
+									<option value="165">بيرو</option>
+									<option value="150">تايلاند</option>
+									<option value="124">تايوان</option>
+									<option value="200">تركس وكايكوس</option>
+									<option value="109">تركمانستان</option>
+									<option value="97">تركيا</option>
+									<option value="199">ترينيداد وتوباغو</option>
+									<option value="10">تشاد</option>
+									<option value="159">تشيلي</option>
+									<option value="42">تنزانيا</option>
+									<option value="43">توغو</option>
+									<option value="44">تونس</option>
+									<option value="139">تونغا</option>
+									<option value="187">جامايكا</option>
+									<option value="171">جزر البهاما</option>
+									<option value="11">جزر القمر</option>
+									<option value="138">جزر سليمان</option>
+									<option value="175">جزر فيرجن البريطانية</option>
+									<option value="176">جزر كايمان</option>
+									<option value="128">جزر كوك</option>
+									<option value="127">جزيرة كريسماس</option>
+									<option value="9">جمهورية أفريقيا الوسطى</option>
+									<option value="181">جمهورية الدومينيكان</option>
+									<option value="92">جمهورية سلوفاكيا</option>
+									<option value="40">جنوب أفريقيا</option>
+									<option value="103">جورجيا</option>
+									<option value="50">جيبوتي</option>
+									<option value="302">دولة اخرى في اسيا</option>
+									<option value="303">دولة اخرى في افريقيا</option>
+									<option value="301">دولة اخرى في امريكا</option>
+									<option value="300">دولة اخرى في اوروبا</option>
+									<option value="180">دومينيكا</option>
+									<option value="35">رواندا</option>
+									<option value="107">روسيا</option>
+									<option value="102">روسيا البيضاء</option>
+									<option value="90">رومانيا</option>
+									<option value="47">زامبيا</option>
+									<option value="48">زيمبابوي</option>
+									<option value="20">ساحل العاج</option>
+									<option value="137">ساموا</option>
+									<option value="125">ساموا الأمريكية</option>
+									<option value="304">سان مارينو</option>
+									<option value="193">سانت بارتيليمي</option>
+									<option value="194">سانت لوسيا</option>
+									<option value="195">سانت مارتن</option>
+									<option value="36">ساو تومي وبرينسيبي</option>
+									<option value="123">سري لانكا</option>
+									<option value="57">سلطنة عمان</option>
+									<option value="93">سلوفينيا</option>
+									<option value="149">سنغافورة</option>
+									<option value="62">سوريا</option>
+									<option value="166">سورينام</option>
+									<option value="96">سويسرا</option>
+									<option value="38">سيراليون</option>
+									<option value="197">شارع&nbsp;سانت كيتس ونيفيس</option>
+									<option value="198">شارع&nbsp;فنسنت وغرينادين</option>
+									<option value="196">شارع&nbsp;كروا</option>
+									<option value="108">طاجيكستان</option>
+									<option value="17">غامبيا</option>
+									<option value="18">غانا</option>
+									<option value="183">غرينادا</option>
+									<option value="153">غرينلاند</option>
+									<option value="184">غواتيمالا</option>
+									<option value="163">غيانا</option>
+									<option value="162">غيانا الفرنسية</option>
+									<option value="19">غينيا بيساو</option>
+									<option value="140">فانواتو</option>
+									<option value="74">فرنسا</option>
+									<option value="202">فلسطين</option>
+									<option value="168">فنزويلا</option>
+									<option value="73">فنلندا</option>
+									<option value="151">فيتنام</option>
+									<option value="129">فيجي</option>
+									<option value="201">قبرص</option>
+									<option value="58">قطر</option>
+									<option value="105">قيرغيزستان</option>
+									<option value="104">كازاخستان</option>
+									<option value="133">كاليدونيا الجديدة</option>
+									<option value="69">كرواتيا</option>
+									<option value="143">كمبوديا</option>
+									<option value="152">كندا</option>
+									<option value="178">كوبا</option>
+									<option value="179">كوراكاو</option>
+									<option value="122">كوريا الجنوبية</option>
+									<option value="120">كوريا الشمالية</option>
+									<option value="177">كوستا ريكا</option>
+									<option value="160">كولومبيا</option>
+									<option value="131">كيريباتي</option>
+									<option value="21">كينيا</option>
+									<option value="81">لاتفيا</option>
+									<option value="145">لاوس</option>
+									<option value="56">لبنان</option>
+									<option value="83">لوكسمبورغ</option>
+									<option value="24">ليبيا</option>
+									<option value="23">ليبيريا</option>
+									<option value="82">ليتوانيا</option>
+									<option value="22">ليسوتو</option>
+									<option value="26">مالاوي</option>
+									<option value="27">مالي</option>
+									<option value="146">ماليزيا</option>
+									<option value="25">مدغشقر</option>
+									<option value="13">مصر</option>
+									<option value="84">مقدونيا</option>
+									<option value="118">منغوليا</option>
+									<option value="28">موريتانيا</option>
+									<option value="29">موريشيوس</option>
+									<option value="31">موزامبيق</option>
+									<option value="106">مولدوفا</option>
+									<option value="147">ميانمار</option>
+									<option value="132">ميكرونيزيا</option>
+									<option value="32">ناميبيا</option>
+									<option value="119">نيبال</option>
+									<option value="34">نيجيريا</option>
+									<option value="190">نيكاراغوا</option>
+									<option value="134">نيوزيلندا</option>
+									<option value="185">هايتي</option>
+									<option value="186">هندوراس</option>
+									<option value="78">هنغاريا</option>
+									<option value="85">هولندا</option>
+									<option value="115">هونغ كونغ</option>
+									<option value="141">واليس وفوتونا</option>
+									<option value="99">يوغوسلافيا</option>
+									<option value="77">يونان</option>
+								</select>
+							</div>
+
+						</div>
+						<div class="col-md-6">
+							<div class="column">
+								<input data-val="true" data-val-equalto="كلمة المرور وتأكيد كلمة المرور غير متطابقة" data-val-equalto-other="*.Password" data-val-required="حقل تأكيد كلمة المرور مطلوب." id="ConfirmPassword" name="ConfirmPassword" placeholder="تأكيد كلمة المرور" type="password">
+								
+							</div>
+
+						</div>
+						<div class="col-md-6">
+							<div class="column">
+								<input data-val="true" data-val-length=" الرجاء اختيار كلمة مرور مكونة من ستة احرف وأرقام على الأقل" data-val-length-max="100" data-val-length-min="6" data-val-required="حقل كلمة المرور مطلوب." id="Password" name="Password" placeholder="كلمة المرور" type="password">
+								
+							</div>
+
+						</div>
+						<div class="col-md-6">
+							<div class="column">
+								<select id="IsMale" name="IsMale" dir="rtl">
+									<option value=""> اختر الجنس (اختياري)</option>
+									<option value="True">ذكر</option>
+									<option value="False">أنثى</option>
+								</select>
+							</div>
+
+
+						</div>
+
+						<div class="col-md-6">
+							<div class="column">
+								<div class="row">
+
+									<div class="column date-ddl col-md-3">
+
+
+										<select data-val="true" data-val-number="The field Year must be a number." data-val-required="The Year field is required." id="Year" name="Year" dir="rtl">
+											<option value="0">السنة</option>
+											<option value="1879">1879</option>
+											<option value="1880">1880</option>
+											<option value="1881">1881</option>
+											<option value="1882">1882</option>
+											<option value="1883">1883</option>
+											<option value="1884">1884</option>
+											<option value="1885">1885</option>
+											<option value="1886">1886</option>
+											<option value="1887">1887</option>
+											<option value="1888">1888</option>
+											<option value="1889">1889</option>
+											<option value="1890">1890</option>
+											<option value="1891">1891</option>
+											<option value="1892">1892</option>
+											<option value="1893">1893</option>
+											<option value="1894">1894</option>
+											<option value="1895">1895</option>
+											<option value="1896">1896</option>
+											<option value="1897">1897</option>
+											<option value="1898">1898</option>
+											<option value="1899">1899</option>
+											<option value="1900">1900</option>
+											<option value="1901">1901</option>
+											<option value="1902">1902</option>
+											<option value="1903">1903</option>
+											<option value="1904">1904</option>
+											<option value="1905">1905</option>
+											<option value="1906">1906</option>
+											<option value="1907">1907</option>
+											<option value="1908">1908</option>
+											<option value="1909">1909</option>
+											<option value="1910">1910</option>
+											<option value="1911">1911</option>
+											<option value="1912">1912</option>
+											<option value="1913">1913</option>
+											<option value="1914">1914</option>
+											<option value="1915">1915</option>
+											<option value="1916">1916</option>
+											<option value="1917">1917</option>
+											<option value="1918">1918</option>
+											<option value="1919">1919</option>
+											<option value="1920">1920</option>
+											<option value="1921">1921</option>
+											<option value="1922">1922</option>
+											<option value="1923">1923</option>
+											<option value="1924">1924</option>
+											<option value="1925">1925</option>
+											<option value="1926">1926</option>
+											<option value="1927">1927</option>
+											<option value="1928">1928</option>
+											<option value="1929">1929</option>
+											<option value="1930">1930</option>
+											<option value="1931">1931</option>
+											<option value="1932">1932</option>
+											<option value="1933">1933</option>
+											<option value="1934">1934</option>
+											<option value="1935">1935</option>
+											<option value="1936">1936</option>
+											<option value="1937">1937</option>
+											<option value="1938">1938</option>
+											<option value="1939">1939</option>
+											<option value="1940">1940</option>
+											<option value="1941">1941</option>
+											<option value="1942">1942</option>
+											<option value="1943">1943</option>
+											<option value="1944">1944</option>
+											<option value="1945">1945</option>
+											<option value="1946">1946</option>
+											<option value="1947">1947</option>
+											<option value="1948">1948</option>
+											<option value="1949">1949</option>
+											<option value="1950">1950</option>
+											<option value="1951">1951</option>
+											<option value="1952">1952</option>
+											<option value="1953">1953</option>
+											<option value="1954">1954</option>
+											<option value="1955">1955</option>
+											<option value="1956">1956</option>
+											<option value="1957">1957</option>
+											<option value="1958">1958</option>
+											<option value="1959">1959</option>
+											<option value="1960">1960</option>
+											<option value="1961">1961</option>
+											<option value="1962">1962</option>
+											<option value="1963">1963</option>
+											<option value="1964">1964</option>
+											<option value="1965">1965</option>
+											<option value="1966">1966</option>
+											<option value="1967">1967</option>
+											<option value="1968">1968</option>
+											<option value="1969">1969</option>
+											<option value="1970">1970</option>
+											<option value="1971">1971</option>
+											<option value="1972">1972</option>
+											<option value="1973">1973</option>
+											<option value="1974">1974</option>
+											<option value="1975">1975</option>
+											<option value="1976">1976</option>
+											<option value="1977">1977</option>
+											<option value="1978">1978</option>
+											<option value="1979">1979</option>
+											<option value="1980">1980</option>
+											<option value="1981">1981</option>
+											<option value="1982">1982</option>
+											<option value="1983">1983</option>
+											<option value="1984">1984</option>
+											<option value="1985">1985</option>
+											<option value="1986">1986</option>
+											<option value="1987">1987</option>
+											<option value="1988">1988</option>
+											<option value="1989">1989</option>
+											<option value="1990">1990</option>
+											<option value="1991">1991</option>
+											<option value="1992">1992</option>
+											<option value="1993">1993</option>
+											<option value="1994">1994</option>
+											<option value="1995">1995</option>
+											<option value="1996">1996</option>
+											<option value="1997">1997</option>
+											<option value="1998">1998</option>
+											<option value="1999">1999</option>
+											<option value="2000">2000</option>
+											<option value="2001">2001</option>
+											<option value="2002">2002</option>
+											<option value="2003">2003</option>
+											<option value="2004">2004</option>
+											<option value="2005">2005</option>
+											<option value="2006">2006</option>
+										</select>
+										
+									</div>
+
+									<div class="column date-ddl col-md-3">
+
+										<select  data-val="true" data-val-number="The field Month must be a number." data-val-required="The Month field is required." id="Month" name="Month" dir="rtl">
+											<option value="0">الشهر</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+											<option value="12">12</option>
+										</select>
+										
+									</div>
+									<div class="column date-ddl col-md-3">
+
+										<select data-val="true" data-val-number="The field Day must be a number." data-val-required="The Day field is required." id="Day" name="Day"  dir="rtl">
+											<option value="0">اليوم</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+											<option value="7">7</option>
+											<option value="8">8</option>
+											<option value="9">9</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+											<option value="12">12</option>
+											<option value="13">13</option>
+											<option value="14">14</option>
+											<option value="15">15</option>
+											<option value="16">16</option>
+											<option value="17">17</option>
+											<option value="18">18</option>
+											<option value="19">19</option>
+											<option value="20">20</option>
+											<option value="21">21</option>
+											<option value="22">22</option>
+											<option value="23">23</option>
+											<option value="24">24</option>
+											<option value="25">25</option>
+											<option value="26">26</option>
+											<option value="27">27</option>
+											<option value="28">28</option>
+											<option value="29">29</option>
+											<option value="30">30</option>
+											<option value="31">31</option>
+										</select>
+									
+									</div>
+
+									<div class="column DOB-label col-md-3">
+										<label class="birth-label">تاريخ الميلاد </label>
+									</div>
+
+
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-md-12">
+							<div class="column mb-3">
+								<a rel="nofollow" href="#" target="_blank" title="شروط الاستخدام">شروط الاستخدام</a>
+								<label class="check-with-label" for="Agree">أوافق على</label>
+
+								<input class="check-with-label" data-val="true" data-val-checkboxrequired="يجب عليك الموافقة على شروط الاستخدام" data-val-required="The أوافق على field is required." id="Agree" name="Agree" type="checkbox" value="true"><input name="Agree" type="hidden" value="false">
+								<span class="field-validation-valid" data-valmsg-for="Agree" data-valmsg-replace="true"></span>
+							</div>
+
+						</div>
+						<div class="col-md-12">
+							<div class="column">
+								<button class="button blue" type="submit" id="submit">
+									<span class="bold ml-3">سجل</span>
+									<i class="fa fa-arrow-circle-left" dir="rtl"></i>
+								</button>
+							</div>
+
+						</div>
+
+
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+  
+
+
+
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mine.js"></script>
+</body>
+
+</html>

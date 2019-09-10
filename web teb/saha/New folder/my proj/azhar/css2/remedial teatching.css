@@ -1,0 +1,26 @@
+body{
+	background-color:#ddd
+}
+.table{
+	height: 900px;
+	font-size: 20px;
+	margin-left: 20px
+
+}
+
+.t1{
+	background-color: #990;
+
+}
+
+.form{
+width: 50%;
+padding-bottom: 20px;
+margin-left: 20px
+}
+.pic{
+padding-right: 20px;	
+width:400px;
+height: 400px;
+float: right;
+}

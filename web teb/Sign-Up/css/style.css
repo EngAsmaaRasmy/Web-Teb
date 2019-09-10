@@ -1,0 +1,116 @@
+body
+{
+	    background-color: #e3ecf0;
+}
+@media only screen and (min-width: 769px)
+.main-content {
+    width: 100%;
+}
+.main-content
+{
+	padding: 1rem;
+}
+.main-content div {
+    font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizelegibility;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+@media only screen and (min-width: 769px)
+.padding {
+    padding: 0;
+}
+.main-content .padding h1 {
+    color: #2b5464;
+    font-size: 1.9rem;
+    padding-bottom: .9rem;
+    padding-top: .7rem;
+    line-height: 1.1;
+}
+@media only screen and (min-width: 769px)
+.b-border {
+    font-size: 1.7rem;
+    padding-bottom: .5rem;
+}
+.b-border {
+    border-bottom: 3px solid #16c1f5;
+    color: #2b5464;
+    display: block;
+    position: relative;
+}
+.bold {
+    font-family: "roboto",bfont;
+    font-weight: 400;
+    font-style: normal;
+}
+div .column input, div .column select {
+    height: 2.875rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border-color: #16C1F5;
+}
+.column select {
+    font-family: "roboto",lfont;
+    color: #738184;
+    opacity: 1;
+    border: 1px solid #16C1F5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    background-image: url(https://static.webteb.net/imgs/mobile/dropdown-icon.png);
+    background-position: .625rem center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 2.875rem;
+    margin-bottom: 1rem;
+}
+select, input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    border: 1px solid #96a6af;
+    color: #29333f;
+    font-size: 1rem;
+    line-height: 36px;
+    padding: 0 .5rem;
+    width: 100%;
+    outline: 0!important;
+	text-align: right;
+}
+div .column .check-with-label {
+    height: .9rem;
+}
+.column label {
+    color: #738184;
+}
+.column a {
+    color: #16c1f5;
+    text-decoration: none;
+    outline: none;
+}
+.button {
+    background: #16c1f5;
+    border-radius: 3px;
+    color: #fff;
+    padding: .55rem .80rem;
+    position: relative;
+    font-family: "roboto",bfont;
+    outline: 0!important;
+    border: 0;
+    cursor: pointer;
+	text-align: center;
+}
+.button i {
+    display: inline-block;
+    font-size: .80rem;
+    padding: 0 .2rem;
+	position: absolute;
+	top: 45%;
+	left: 5px;
+}
+.column .button {
+    display: inline-block;
+    font-size: 1.3rem;
+}
+@media only screen and (min-width: 47.9375rem)
+.column .date-ddl div {
+    width: 20%;
+}

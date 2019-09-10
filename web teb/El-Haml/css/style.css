@@ -1,0 +1,248 @@
+body
+{
+	font-family: 'Tajawal', sans-serif!important;
+}
+.d-main-categories {
+    background: #ECF8F8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.logo .hr {
+    background: url(https://static.webteb.net/new-webteb/baby/d-hr.png) repeat-x;
+    height: 6px;
+    background-size: inherit;
+	width: 362px;
+}
+ul {
+    list-style: outside none none;
+}
+.d-cat-list li {
+    float: right;
+    position: relative;
+    margin: 0 -15px;
+}
+.d-main-categories .d-cat-list li a {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-box-shadow: 0 0 1px transparent;
+            box-shadow: 0 0 1px transparent;
+}
+.d-cat-list li .cat-name {
+    position: absolute;
+    margin-right: 0;
+    width: 135px;
+    right: 79px;
+    top: 122px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.34rem;
+    line-height: 45px;
+}
+/*
+.d-main-categories .d-cat-list li a:hover {
+    -webkit-animation-name: hvr-wobble-horizontal;
+    animation-name: hvr-wobble-horizontal;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+*/
+.monthes {
+    background: #DFF6F5;
+}
+.d-timeline {
+    text-align: center;
+    border-radius: 15px !important;
+    overflow: hidden;
+}
+.d-timeline>div .column {
+    padding-right: .165rem;
+    padding-left: .165rem;
+}
+ul {
+    list-style: outside none none;
+     padding: 0px;
+}
+.main>li {
+    margin-bottom: .33rem;
+}
+.trimester a, .months a {
+    border-bottom: 4px solid #6EE9C2;
+}
+.trimester a {
+    font-size: 1.31rem;
+    padding: 0;
+    line-height: 42px;
+}
+.d-timeline a {
+    color: #A371FC;
+    display: block;
+    background: #BBF2E4;
+	
+}
+months li,{
+    float: right;
+    padding: .165rem;
+}
+.months a {
+    font-size: 1.125rem;
+    line-height: 32px;
+}
+.d-timeline a:hover {
+    background: #FEE1F6;
+    border-color: #A371FC;
+}
+
+
+
+
+
+
+
+/*حاسبات الحمل*/
+.c-title {
+    font-size: 2.5rem;
+    padding: 0 1.4rem;
+    margin-bottom: 4.75rem;
+	width: auto;
+    color: #7078C6 !important;
+    position: relative;
+	display: table;
+    margin: 0 auto 2rem;
+}
+.c-title a {
+    color: #7078C6;
+}
+a {
+    text-decoration: none !important;
+    outline: none!important;
+	-webkit-transition: all .15s linear;
+	transition: all .15s linear;
+}
+.c-title::before, .c-title::after {
+    width: 9px;
+    height: 9px;
+}
+.c-title::before
+{
+	content: "";
+    right: 0;
+}
+.c-title::after {
+    content: "";
+    left: 0;
+}
+.c-title::before, .c-title::after {
+	background: #7078C6;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+}
+
+.black {
+   font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.calculators .calculator-item i {
+    width: 83px;
+    height: 83px;
+    font-size: 3.1rem;
+    line-height: 93px;
+    margin-bottom: 1rem;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+	background: #FDA1E4;
+    color: #fff;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+}
+.calculators a span {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: .5rem;
+	 color: #383E49;
+}
+.calculators .calculator-item a:hover i {
+    position: relative;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+    background: #CC86F8;
+}
+.c-link {
+    color: #FF4CA0;
+    font-size: 1.25rem;
+    margin: 1.5rem auto 0;
+    display: table;
+	position: relative;
+}
+.c-link:hover {
+    color: #A371FC;
+}
+.c-link i {
+    font-size: .60rem;
+	position: absolute;
+	top: 50%;
+	left: -20px;
+}
+/*babies*/
+.bg-teal
+{
+	background: #ECF8F8;
+}
+.babies-item a{
+   float: right;
+    width: 100%;
+    position: relative;
+	-webkit-transition: all .3s;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+
+.babies-item a::before {
+    content: "";
+    background: url(https://static.webteb.net/new-webteb/baby/item-bg2.png) repeat-x bottom left;
+    height: 75px;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+.babies-item span {
+    font-size: 1.66rem;
+    padding: .3rem .9rem .6rem;
+}
+.babies-item span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+}
+.babies-item a:hover::before {
+    background-color: rgba(112,120,198,0.3);
+}
+.babies-item a::before {
+    background: url(https://static.webteb.net/new-webteb/baby/d-item-bg.png) repeat-x bottom left;
+    height: 100%;
+    -webkit-transition: background-color .15s linear;
+    transition: background-color .15s linear;
+}
+.babies-item {
+    width: 498px;
+    margin-bottom: 2.6rem;
+	border-radius: 10px;
+	overflow: hidden;
+	
+}
+
+
+
+
+

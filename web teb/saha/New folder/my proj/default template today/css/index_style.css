@@ -1,0 +1,55 @@
+
+
+body
+{
+	font-family: 'segoe ui light';
+}
+#myimage{
+    background-image: url(..//images/2.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%
+}
+
+#option{
+    width: 300px;
+    height: 200px;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    z-index: 99999999;
+    padding: 5px
+background-color: red
+
+}
+#options-color
+{
+    background-color: #ccc;
+    float: left;
+    border: solid 3px teal;
+    padding: 10px;
+    position: relative;
+    
+} 
+#option ul li{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: aqua;
+    cursor: pointer;
+  
+}
+#option i{
+    background-color: teal;
+    padding: 10px;
+    float: left;
+    border: solid 3px teal;
+    cursor: pointer;
+
+ }
+#optionsImage img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    cursor: pointer
+}

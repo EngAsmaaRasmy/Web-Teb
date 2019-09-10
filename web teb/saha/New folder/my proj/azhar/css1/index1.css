@@ -1,0 +1,49 @@
+body{
+height: 1000px;
+	background-color: rgb(#2330);
+}
+.pic{
+	width: 600px;
+	height: 500px;
+	float: right;
+}
+.a{
+	padding-left: 450px;
+	color: #500;
+
+ }
+ 
+.all{
+ width: 1100px;
+  
+ height:300px 
+
+}
+.establish{
+margin-top: 10px; 
+padding-left: 50px;
+width: 200px
+height:6px;
+
+}
+.teachers{
+
+padding-left: 50px; 
+width: 200px:;
+height:90px;
+}
+
+.place{
+padding-top: 30px;
+padding-left: 50px;
+width: 400px;
+height:100px;
+
+}
+.cost{
+	padding-top: 30px;
+padding-left: 50px;
+width: 400px;
+height:130px;	
+}
+
